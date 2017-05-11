@@ -1,0 +1,2 @@
+# wp-chianti
+WP Theme
