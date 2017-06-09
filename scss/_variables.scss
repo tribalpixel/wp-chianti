@@ -1,0 +1,38 @@
+// Main Primary color */
+$color-primary-0: #A30A28;
+$color-primary-1: #D34360;
+$color-primary-2: #C51A3C;
+$color-primary-3: #87001A;
+$color-primary-4: #640014;
+$rgba-primary-0: rgba(163, 10, 40,1);
+$rgba-primary-1: rgba(211, 67, 96,1);
+$rgba-primary-2: rgba(197, 26, 60,1);
+$rgba-primary-3: rgba(135,  0, 26,1);
+$rgba-primary-4: rgba(100,  0, 20,1);
+
+// Main Secondary color */
+$color-secondary-0: #610A73;	
+$color-secondary-1: #843295;
+$color-secondary-2: #77168B;
+$color-secondary-3: #4F025F;
+$color-secondary-4: #3A0147;
+$rgba-secondary-0: rgba( 97, 10,115,1);
+$rgba-secondary-1: rgba(132, 50,149,1);
+$rgba-secondary-2: rgba(119, 22,139,1);
+$rgba-secondary-3: rgba( 79,  2, 95,1);
+$rgba-secondary-4: rgba( 58,  1, 71,1);
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}

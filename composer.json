@@ -1,0 +1,15 @@
+{
+    "name": "tribalpixel/wp-chianti",
+    "description": "WordPress Theme",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tribalpixel",
+            "email": "ludovic.bortolotti@tribalpixel.ch"
+        }
+    ]
+}

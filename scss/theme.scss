@@ -1,0 +1,51 @@
+//////////////////////////////
+//  DEFAULT AND RESETS
+//////////////////////////////
+@import "_variables.scss"; 
+@import "_mixins";
+@import "_normalize.scss";
+//@import "_defaults.scss";
+@import "_fonts.scss";
+
+//////////////////////////////
+// LAYOUT
+//////////////////////////////
+#website {
+    margin: 0;
+}
+
+header {
+    background-color: $color-primary-3;
+    * { color:#FFF; }
+}
+
+nav {
+    background-color: $color-primary-4;
+
+    & > ul {
+        li {
+            display: inline-block;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+//////////////////////////////
+// 
+//////////////////////////////
+.site-title {
+    
+}
+
+//////////////////////////////
+//  NAV - http://slicknav.com
+//////////////////////////////
+@import "nav/_core.scss";
+@import "nav/_slicknav.scss"; 
