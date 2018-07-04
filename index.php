@@ -4,32 +4,28 @@
 
     <?php if (have_posts()) : ?>
 
-        <?php while (have_posts()) : the_post(); ?>
+      <?php while (have_posts()) : the_post(); ?>
 
-            <?php
-            
-              if (is_home()) {
-             echo  get_template_part('loop', 'list');
-             var_dump("hello");
-              }
+        <?php
+        if (is_home()) {
+          echo get_template_part('loop', 'list');
+        }
 
-              if (is_page() || is_single()) {
-              get_template_part('loop', 'single');
-              var_dump("single page");
-              }
+        if (is_page() || is_single()) {
+          get_template_part('loop', 'single');
+        }
 
-              if (is_archive() || is_tag()) {
-              get_template_part('loop', 'list');
-              }
+        if (is_archive() || is_tag()) {
+          get_template_part('loop', 'list');
+        }
+        ?>
 
-            ?>
-
-        <?php endwhile; ?>
+      <?php endwhile; ?>
 
     <?php endif; ?>
 
 </section>
 
 <hr>
-<?php //get_sidebar(); ?>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
