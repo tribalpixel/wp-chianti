@@ -1,0 +1,51 @@
+@import "_variables.scss";
+
+#accordion-section-wp_chianti_layout_section,
+#accordion-section-wp_chianti_social_section,
+{
+
+    &>.accordion-section-title {
+        color: $color-primary-0;
+        //border-bottom:1px solid $color-primary-0;
+        &:focus {
+            color: $color-primary-4 !important;
+            border-left-color: $color-primary-4 !important;     
+
+            &:after {
+                color: $color-primary-4 !important;  
+            }
+        }
+    }
+
+    &:hover>.accordion-section-title {
+        color: $color-primary-4 !important;
+        border-left-color: $color-primary-4 !important;  
+
+        &:after {
+            color: $color-primary-4 !important;  
+        }
+    }
+
+}
+
+
+.customize-control-title {
+    color: $color-primary-0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    background: #FFF;
+    margin: 0 -12px 0;
+    border-left: 4px solid $color-primary-0;
+    margin-bottom: 15px;
+}
+
+.customize-control input {
+    color: silver;
+}
+
+.customize-control input:focus {
+    font-weight: bold;
+    color: #000;
+}

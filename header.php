@@ -11,12 +11,14 @@
     <body <?php body_class(); ?>>
 
         <div id="website" class="site">        
+            
+            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+            
+            <p class="site-description"><?php echo get_bloginfo( 'description', 'display' ); ?></p>
 
             <header id="header" class="site-header" role="banner">
                 
-                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
-                <?php if (has_nav_menu('nav-header')) : ?>
+               <?php if (has_nav_menu('nav-header')) : ?>
                     <?php
                     wp_nav_menu(array(
                         'theme_location' => 'nav-header',

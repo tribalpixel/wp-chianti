@@ -1,0 +1,16 @@
+/** Does the same thing as <meta name="viewport" content="width=device-width">, but in the future W3C standard way. -ms- prefix is required for IE10+ to render responsive styling in Windows 8 "snapped" views; IE10+ does not honor the meta tag. See https://core.trac.wordpress.org/ticket/25888. */
+@-ms-viewport { width: device-width; }
+@viewport { width: device-width; }
+#accordion-section-wp_chianti_layout_section > .accordion-section-title, #accordion-section-wp_chianti_social_section > .accordion-section-title { color: #A30A28; }
+#accordion-section-wp_chianti_layout_section > .accordion-section-title:focus, #accordion-section-wp_chianti_social_section > .accordion-section-title:focus { color: #640014 !important; border-left-color: #640014 !important; }
+#accordion-section-wp_chianti_layout_section > .accordion-section-title:focus:after, #accordion-section-wp_chianti_social_section > .accordion-section-title:focus:after { color: #640014 !important; }
+#accordion-section-wp_chianti_layout_section:hover > .accordion-section-title, #accordion-section-wp_chianti_social_section:hover > .accordion-section-title { color: #640014 !important; border-left-color: #640014 !important; }
+#accordion-section-wp_chianti_layout_section:hover > .accordion-section-title:after, #accordion-section-wp_chianti_social_section:hover > .accordion-section-title:after { color: #640014 !important; }
+
+.customize-control-title { color: #A30A28; border-bottom: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 10px 11px 14px; line-height: 21px; background: #FFF; margin: 0 -12px 0; border-left: 4px solid #A30A28; margin-bottom: 15px; }
+
+.customize-control input { color: silver; }
+
+.customize-control input:focus { font-weight: bold; color: #000; }
+
+/*# sourceMappingURL=admin-theme.css.map */

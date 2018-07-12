@@ -1,7 +1,6 @@
 {
     "name": "tribalpixel/wp-chianti",
     "description": "WordPress Theme",
-    "require": {},
     "require-dev": {
         "symfony/var-dumper": "^3.2"
     },
